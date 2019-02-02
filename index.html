@@ -32,7 +32,8 @@
         <div class="clear"></div>
     </div>
     <div id="content" dir="rtl">
-        <p id="update-time" dir="ltr"> آخرین روزآمد: شنبه، ۱۳ بهمن، ساعت ۱۰:۴۰</p>
+        <p id="update-time" dir="ltr"> آخرین روزآمد: <time id="time"></time></p>
+
         <h2 class="title">اطلاعیه‌ها</h2>
         <p>
         <ul>
@@ -112,7 +113,16 @@
             باید مورد مطالعه قرار گیرند.
             امیدوارم در پایان ترم جزوه را با افزودن مطالب جدید تکمیل کنم.
         </p>
+
     </div>
 </div>
 </body>
+
+<script>
+
+    $(document).ready(function () {
+        document.getElementById("time").innerText=document.lastModified;
+    });
+
+</script>
 </html>

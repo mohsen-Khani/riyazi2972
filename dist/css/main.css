@@ -4,7 +4,7 @@
     margin: 0 auto;
     box-shadow: 0 0 6px #999;
     /*background: #faf3ea;*/
-    background: lightcyan;
+    background: aliceblue;
     overflow: hidden;
 }
 #header{
@@ -138,4 +138,7 @@ b{font-weight: 900;}
     box-shadow: 0 20px 5px  -20px #999;
     /*0 0 3px #999;*/
     /*margin: -50px auto 10px;*/
+}
+a {
+    color: red;
 }

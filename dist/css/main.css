@@ -113,6 +113,7 @@ body{font-family: "XB Niloofar"}
 }
 .imp-text{
     color:crimson;
+    font-weight: 900;
 }
 p{
     margin-bottom: 20px;
@@ -124,7 +125,6 @@ i{
     font-weight: bolder;
     text-decoration: underline;
 }
-b{font-weight: 900;}
 .title{
     color: darkblue;
 }
